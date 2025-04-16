@@ -321,7 +321,7 @@ if st.session_state.current_view == "add":
         with col2:
             genre = st.selectbox("Genre", [
                 "Fiction", "Non-Fiction", "Science Fiction", "Fantasy", 
-                "Mystery", "Romance", "Thriller", "Biography", 
+                "Mystery", "Romance", "Thriller", "Biography", "Technology", 
                 "History", "Self-Help", "Poetry", "Science", 
                 "Philosophy", "Religion", "Art", "Other"
             ])
