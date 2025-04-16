@@ -349,6 +349,7 @@ if st.session_state.current_view == "add":
     elif st.session_state.current_view == "search":
         st.markdown("<h2 class='sub-header'> 🔎search books</h2>", unsafe_allow_html=True)
 
+        #Search options
         search_by = st.selectbox("Search by:", ["Title", "Author", "Genre"])
         search_term = st.text_input("Enter search term:")
 
